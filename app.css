@@ -1,0 +1,32 @@
+#app {
+	text-align: center;
+}
+
+#counter {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: pink;
+	width: 150px;
+	height: 50px;
+	border: solid red 3px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.imgContainer {
+	margin-top: 10em;
+}
+
+.logo {
+  	height: 5em;
+	margin: 2em;
+	transition: filter 300ms;
+}
+
+.logo:hover {
+	filter: drop-shadow(0 0 1em #646cffaa);
+}
+.logo.vanilla:hover {
+  	filter: drop-shadow(0 0 1em #f7df1eaa);
+}
